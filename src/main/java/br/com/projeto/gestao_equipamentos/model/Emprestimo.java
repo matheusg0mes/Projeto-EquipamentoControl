@@ -41,7 +41,7 @@ public class Emprestimo {
         if (this.dataEmprestimo == null) {
             this.dataEmprestimo = LocalDate.now();
         }
-        this.dataPrevistaDevolucao = this.dataEmprestimo.plusDays(14);
+        
     }
 
     public void registrarDevolucao() {
