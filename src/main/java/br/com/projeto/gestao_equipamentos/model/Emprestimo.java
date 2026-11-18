@@ -41,7 +41,7 @@ public class Emprestimo {
         if (this.dataEmprestimo == null) {
             this.dataEmprestimo = LocalDate.now();
         }
-        
+        this.setDataDevolucao(dataDevolucao);
     }
 
     public void registrarDevolucao() {
